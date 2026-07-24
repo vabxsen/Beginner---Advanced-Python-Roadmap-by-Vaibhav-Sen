@@ -1,252 +1,109 @@
-# 🐍 Python Mastery: Beginner to Advanced
+# 🐍 Advanced Python Roadmap
 
-> A comprehensive, structured roadmap to learn **Python** from absolute beginner to advanced level. This repository is designed to provide conceptual understanding, practical guidance, and a clear learning path for students, self-learners, and interview preparation.
+<p>
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.x"/>
+  <img src="https://img.shields.io/github/license/vabxsen/Advanced-Python-Roadmap-by-vabxsen?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/github/stars/vabxsen/Advanced-Python-Roadmap-by-vabxsen?style=for-the-badge&color=yellow" alt="Stars"/>
+  <img src="https://img.shields.io/github/last-commit/vabxsen/Advanced-Python-Roadmap-by-vabxsen?style=for-the-badge" alt="Last commit"/>
+</p>
+
+> A structured, code-first Python roadmap — from absolute fundamentals to advanced topics, data science libraries, and mini-projects. Every concept below has a runnable `.py` file to go with it.
 
 ---
 
 ## 📖 About
 
-This repository serves as a complete Python learning resource covering the language from its fundamentals to advanced topics. It is organized in a logical progression so learners can build a strong foundation before moving on to more complex concepts.
+This repository is a complete Python learning path, organized into 15 numbered folders that go from the basics straight through to advanced and applied topics. It's built for systematic, hands-on learning rather than just reading — every topic links directly to working code.
 
-Whether you're preparing for interviews, university exams, or developing real-world Python applications, this repository aims to make learning systematic and approachable.
+Whether you're preparing for interviews, coursework, or just leveling up, the folders are meant to be worked through roughly in order.
 
----
-
-## 🎯 Who Is This Repository For?
-
-* 🌱 Complete beginners with no programming experience
-* 🎓 BCA, B.Tech, MCA, B.Sc. and Engineering students
-* 💼 Interview and placement preparation
-* 📝 Competitive exam aspirants
-* 🚀 Self-learners looking for a structured Python roadmap
+**Who it's for:**
+- 🌱 Complete beginners with no programming experience
+- 🎓 CS/IT students preparing for coursework or exams
+- 💼 Interview and placement preparation
+- 🚀 Self-learners who want a structured, code-backed roadmap
 
 ---
 
-# 📚 Learning Roadmap
+## 📂 Repository Structure
 
-## 1. Python Fundamentals
-
-* Introduction to Python
-* Installing Python
-* Python Environment & IDEs
-* Python Syntax
-* Keywords & Identifiers
-* Variables
-* Comments
-* Input & Output
-
-## 2. Data Types
-
-* Numbers
-* Strings
-* Booleans
-* Lists
-* Tuples
-* Sets
-* Dictionaries
-* None Type
-* Type Conversion
-
-## 3. Operators
-
-* Arithmetic
-* Assignment
-* Comparison
-* Logical
-* Bitwise
-* Identity
-* Membership
-
-## 4. Control Flow
-
-* Conditional Statements
-* Loops
-* Nested Loops
-* Loop Control Statements
-
-## 5. Pattern Problems
-
-* Star Patterns
-* Number Patterns
-* Character Patterns
-* Logic Building
-
-## 6. Functions
-
-* Function Definition
-* Parameters
-* Arguments
-* Return Statements
-* Scope
-* Lambda Functions
-* Recursion
-
-## 7. Python Collections
-
-* Strings
-* Lists
-* Tuples
-* Sets
-* Dictionaries
-
-## 8. File Handling
-
-* Reading Files
-* Writing Files
-* File Modes
-* Text vs Binary Files
-
-## 9. Exception Handling
-
-* Errors
-* Exceptions
-* try
-* except
-* else
-* finally
-* Custom Exceptions
-
-## 10. Object-Oriented Programming
-
-* Classes
-* Objects
-* Constructors
-* Attributes
-* Methods
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Abstraction
-
-## 11. Modules & Packages
-
-* Creating Modules
-* Importing Modules
-* Python Packages
-* Standard Library
-
-## 12. Algorithms
-
-* Searching Algorithms
-* Sorting Algorithms
-* Time Complexity Basics
-
-## 13. Data Structures
-
-* Stack
-* Queue
-* Linked List
-* Trees (Concepts)
-* Hashing Basics
-
-## 14. Advanced Python
-
-* Iterators
-* Generators
-* Decorators
-* Comprehensions
-* Context Managers
-* Multithreading
-* Multiprocessing
-* Memory Management
-* Virtual Environments
-
-## 15. Projects
-
-* Console Applications
-* Automation Scripts
-* File Processing
-* Utility Programs
-
-## 16. Interview Preparation
-
-* Frequently Asked Questions
-* Concept Revision
-* Common Mistakes
-* Best Practices
+| # | Folder | Topic | Files |
+|---|---|---|---|
+| 01 | [`01-fundamentals/`](01-fundamentals) | Variables & data types | [`variables_and_data_types.py`](01-fundamentals/variables_and_data_types.py) |
+| 02 | [`02-operators/`](02-operators) | Arithmetic, logical, bitwise & more | [`operators.py`](02-operators/operators.py) |
+| 03 | [`03-control-flow/`](03-control-flow) | Conditionals & loops | [`if_else.py`](03-control-flow/if_else.py), [`loops.py`](03-control-flow/loops.py) |
+| 04 | [`04-functions/`](04-functions) | Functions, lambdas & recursion | [`functions.py`](04-functions/functions.py), [`lambda.py`](04-functions/lambda.py), [`recursion.py`](04-functions/recursion.py) |
+| 05 | [`05-collections/`](05-collections) | Strings, lists, tuples, sets, dicts | [`strings.py`](05-collections/strings.py), [`lists.py`](05-collections/lists.py), [`tuples.py`](05-collections/tuples.py), [`sets.py`](05-collections/sets.py), [`dictionaries.py`](05-collections/dictionaries.py) |
+| 06 | [`06-file-handling/`](06-file-handling) | Reading/writing files, CSV, JSON | [`file_handling.py`](06-file-handling/file_handling.py), [`csv.py`](06-file-handling/csv.py), [`json.py`](06-file-handling/json.py) |
+| 07 | [`07-exception-handling/`](07-exception-handling) | try / except / finally, custom exceptions | [`exception_handling.py`](07-exception-handling/exception_handling.py) |
+| 08 | [`08-oop/`](08-oop) | Classes, encapsulation, inheritance, polymorphism, abstraction | [`oop.py`](08-oop/oop.py), [`encapsulation.py`](08-oop/encapsulation.py), [`inheritance.py`](08-oop/inheritance.py), [`polymorphism.py`](08-oop/polymorphism.py), [`abstraction.py`](08-oop/abstraction.py) |
+| 09 | [`09-modules-and-packages/`](09-modules-and-packages) | Creating & importing modules and packages | [`modules.py`](09-modules-and-packages/modules.py), [`packages.py`](09-modules-and-packages/packages.py) |
+| 10 | [`10-advanced-python/`](10-advanced-python) | Iterators, generators, decorators, concurrency | [`iterators.py`](10-advanced-python/iterators.py), [`generators.py`](10-advanced-python/generators.py), [`decorators.py`](10-advanced-python/decorators.py), [`multithreading.py`](10-advanced-python/multithreading.py), [`multiprocessing.py`](10-advanced-python/multiprocessing.py) |
+| 11 | [`11-standard-library-and-utilities/`](11-standard-library-and-utilities) | datetime, regex, argparse, logging, requests | [`datetime.py`](11-standard-library-and-utilities/datetime.py), [`regular_expressions.py`](11-standard-library-and-utilities/regular_expressions.py), [`argparse.py`](11-standard-library-and-utilities/argparse.py), [`logging.py`](11-standard-library-and-utilities/logging.py), [`requests_api.py`](11-standard-library-and-utilities/requests_api.py) |
+| 12 | [`12-databases/`](12-databases) | SQLite basics | [`sqlite.py`](12-databases/sqlite.py) |
+| 13 | [`13-data-science-libraries/`](13-data-science-libraries) | NumPy, pandas, matplotlib | [`numpy.py`](13-data-science-libraries/numpy.py), [`pandas.py`](13-data-science-libraries/pandas.py), [`matplotlib.py`](13-data-science-libraries/matplotlib.py) |
+| 14 | [`14-gui-programming/`](14-gui-programming) | Desktop GUIs with Tkinter | [`tkinter.py`](14-gui-programming/tkinter.py) |
+| 15 | [`15-algorithms-and-projects/`](15-algorithms-and-projects) | Search algorithms & a full mini-project | [`b-Search.py`](15-algorithms-and-projects/b-Search.py) (binary search), [`8-Puzzle.py`](15-algorithms-and-projects/8-Puzzle.py) (Pygame-based 8-puzzle solver) |
 
 ---
 
-# ✨ Features
+## 🚀 Getting Started
 
-* 📘 Beginner-friendly learning path
-* 📚 Well-organized topics
-* 🎯 Interview-oriented concepts
-* 💡 Practical explanations
-* 🧠 Strong focus on fundamentals
-* 🚀 Progressive learning structure
-* 🔄 Easy to navigate
+```bash
+git clone https://github.com/vabxsen/Advanced-Python-Roadmap-by-vabxsen.git
+cd Advanced-Python-Roadmap-by-vabxsen
+```
 
----
+Work through the folders in numeric order (`01-fundamentals` → `15-algorithms-and-projects`), running each file as you go:
 
-# 🛠 Prerequisites
+```bash
+python 01-fundamentals/variables_and_data_types.py
+```
 
-* Basic computer knowledge
-* Curiosity to learn
-* Python 3.x installed (recommended)
+Some topics need extra packages — install what a given file imports as you reach it, e.g.:
 
----
+```bash
+pip install numpy pandas matplotlib requests pygame
+```
 
-# 🚀 How to Use
-
-1. Clone the repository.
-2. Start with the fundamentals.
-3. Learn each topic in sequence.
-4. Practice regularly.
-5. Build mini projects.
-6. Revisit advanced concepts.
-7. Prepare for interviews using the revision sections.
+**Prerequisites:** Python 3.x and basic comfort with a terminal — no prior programming experience required otherwise.
 
 ---
 
-# 🎓 Learning Outcome
+## 🎓 Learning Outcome
 
-After completing this roadmap, you should be able to:
-
-* Write clean Python programs.
-* Understand core programming concepts.
-* Work confidently with Python data structures.
-* Build object-oriented applications.
-* Handle files and exceptions.
-* Understand advanced Python features.
-* Solve coding problems efficiently.
-* Build real-world Python projects.
-* Prepare effectively for technical interviews.
+By working through this roadmap you should be able to:
+- Write clean, idiomatic Python
+- Work confidently with Python's core data structures
+- Build object-oriented programs
+- Handle files, exceptions, and standard library utilities
+- Use iterators, generators, decorators, and concurrency
+- Query a database, build a simple GUI, and use NumPy/pandas/matplotlib
+- Apply the fundamentals to a real project (the 8-puzzle solver)
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
-Contributions that improve explanations, fix issues, or enhance the learning experience are welcome.
+Contributions that improve explanations, fix bugs, or add topics are welcome.
 
-1. Fork the repository.
-2. Create a new branch.
-3. Commit your changes.
-4. Submit a Pull Request.
-
----
-
-# ⭐ Support
-
-If you find this repository useful:
-
-* ⭐ Star the repository
-* 🍴 Fork it
-* 🛠 Contribute improvements
-* 📢 Share it with other learners
+1. Fork the repository
+2. Create a branch for your change
+3. Commit your changes
+4. Open a Pull Request
 
 ---
 
-# 📄 License
+## ⭐ Support
 
-This project is distributed under the license specified in this repository. Please refer to the `LICENSE` file for complete terms and conditions.
+If this helped you, consider starring the repo, sharing it, or contributing improvements.
 
 ---
 
-## 📬 Connect
+## 📄 License
 
-If you found this project helpful, consider following the repository for future updates and improvements.
+Distributed under the license in [`LICENSE`](LICENSE).
 
-Made with love by - Vaibhav Sen
+---
 
-Happy Coding! 🚀🐍
+<p align="center">Made with 🐍 by <a href="https://github.com/vabxsen">Vaibhav Sen</a></p>
